@@ -1,7 +1,7 @@
 {
     "name": "九桃小说",
     "url": "www.9txs.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "https://www.9txs.com/search.html@post->searchkey=${key}",
         "list": "ul.library > li",
@@ -30,6 +30,7 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#content > p"
+        "content": "#content > p",
+        "purify": ["您可以在百度里搜索.+最新章节！"]
     }
 }
